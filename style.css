@@ -858,7 +858,7 @@ img {
   }
 
   img.w-100.banner-animation {
-    width: 80%! important;
+    width: 60%! important;
   }
 
   /**
@@ -867,8 +867,10 @@ img {
 
   .stats-list { grid-template-columns: repeat(3, 1fr); }
 
-
-
+  .features-banner {
+    width: 70%;
+  }
+ 
   /**
    * BLOG/OTHER PROJECTS
    */
@@ -960,8 +962,12 @@ img {
     gap: 25px;
   }
 
-
-
+  .features-banner {
+    width: 70%;
+  }
+  img.w-100.banner-animation {
+    width: 70%! important;
+  }
   /**
    * FOOTER
    */
@@ -1079,9 +1085,11 @@ img {
     margin-block: 0;
     display: grid;
     place-items: center;
+    width: 80%;
   }
-
-
+  img.w-100.banner-animation {
+    width: 80%! important;
+  }
 
   /**
    * FOOTER
@@ -1121,8 +1129,12 @@ img {
 
   .hero { min-height: 800px; }
 
-
-
+  .features-banner {
+    width: 80%;
+  }
+  img.w-100.banner-animation {
+    width: 80%! important;
+  }
   /**
    * BLOG
    */
